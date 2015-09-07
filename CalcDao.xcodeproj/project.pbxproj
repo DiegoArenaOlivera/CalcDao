@@ -68,7 +68,7 @@
 				98F719871B9A3C1100B539D7 /* CalcDao.podspec */,
 				98F719891B9A3C5700B539D7 /* LICENSE */,
 				98F7198A1B9A3C5700B539D7 /* README.md */,
-				98EEDC521B9DBE6B00DE42A0 /* CalcDao */,
+				9842AF551B9DBF40009B0D87 /* CalcDao */,
 				60ED419A136C58B600F3D3ED /* Frameworks */,
 				60ED4198136C58B600F3D3ED /* Products */,
 			);
@@ -144,14 +144,6 @@
 				9842AF611B9DBF40009B0D87 /* FI-Prefix.pch */,
 			);
 			path = "Support Files";
-			sourceTree = "<group>";
-		};
-		98EEDC521B9DBE6B00DE42A0 /* CalcDao */ = {
-			isa = PBXGroup;
-			children = (
-				9842AF551B9DBF40009B0D87 /* CalcDao */,
-			);
-			name = CalcDao;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
