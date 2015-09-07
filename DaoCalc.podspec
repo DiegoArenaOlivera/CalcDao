@@ -32,6 +32,6 @@ s.source = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag =>
 #s.framework = "UIKit"
 
 # 8
-s.source_files = "CalcDao/*.{m/h}"
+s.source_files = "Framework-iOS/*.{m/h}"
 
 end
