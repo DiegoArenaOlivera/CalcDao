@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.platform = :ios, '6.1'
   s.license  = 'MIT'
   s.summary  = 'A test calc.'
-  s.homepage = 'https://github.com/DiegoArenaOlivera/calcdaoapp'
+  s.homepage = 'https://github.com/DiegoArenaOlivera/CalcDao'
   s.authors   = { 'DiegoArenaOlivera' => 'degendao@gmail.com' }
-  s.source   = { :git => 'https://github.com/DiegoArenaOlivera/calcdaoapp.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/DiegoArenaOlivera/CalcDao.git', :tag => s.version.to_s }
 
   s.description = 'CalcDao A test calc.'
 
