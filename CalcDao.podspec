@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.{h}'
   s.ios.header_dir = 'CalcDao'
   s.ios.public_header_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.h'
-  s.ios.resources = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Resources/*.{strings,wav,png}'
+  s.ios.resources = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Resources/*.{*}'
   #s.ios.requires_arc = false
   
   s.ios.xcconfig = { 
