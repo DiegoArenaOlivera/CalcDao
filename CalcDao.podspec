@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.author = { "
-    DiegoArenaOlivera" => "degendao@gmail.com" 
+    DiegoArenaOlivera" => "darena@codigodelsur.com" 
     }
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -37,29 +37,24 @@ Pod::Spec.new do |s|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.platform     = :ios
-
-  s.ios.deployment_target = "8.1"
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  s.ios.source_files  = "CalcDao.framework/Versions/0.0.1/Headers/*.{h}"
-  s.ios.header_dir = 'CalcDao'
-  s.ios.public_header_files = "CalcDao.framework/Versions/0.0.1/Headers/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  
-  s.ios.resources = "CalcDao.framework/Versions/0.0.1/Resources/*.{*}"
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  s.frameworks = "CalcDao", 'AVFoundation', 'AudioToolbox', 'CoreMedia'
-  s.libraries = "iconv", "c++", "z"
-
+  s.preserve_paths = 'CalcDao.embeddedframework/*'
+  s.platform = :ios
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.requires_arc = false
+  s.ios.deployment_target = '8.1'
+  s.ios.source_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.{h}'
+  s.ios.header_dir = 'CalcDao'
+  s.ios.public_header_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.h'
+  s.ios.resources = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Resources/*.{strings,wav,png}'
+  #s.ios.requires_arc = false
+  
+  s.ios.xcconfig = { 
+        'GCC_PREPROCESSOR_DEFINITIONS' => 'DEBUG=1 $(inherited) CVLIB_IMG_NOCODEC',
+        'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/CalcDao/CalcDao.embeddedframework"'
+  }
+
+  s.ios.frameworks = 'CalcDao', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'QuartzCore'
+  s.ios.libraries = 'iconv', 'c++', 'z'
 
 end
