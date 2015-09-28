@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "CalcDao"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "CalcDaoSDK"
 
   s.description  = <<-DESC
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.0' }
+  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.1' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.deployment_target = '8.1'
+  s.ios.deployment_target = '8.0'
   s.ios.source_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.{h}'
   s.ios.header_dir = 'CalcDao'
   s.ios.public_header_files = 'CalcDao.embeddedframework/CalcDao.framework/Versions/0.0.1/Headers/*.h'
