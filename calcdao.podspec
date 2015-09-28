@@ -3,11 +3,16 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "CalcDao"
-  s.version      = "1.0.2"
+  s.version      = "1.0.1"
   s.summary      = "CalcDaoSDK"
 
   s.description  = <<-DESC
-                   TEST!
+                   A longer description of CalcDao in Markdown format.
+
+                   * Think: Why did you write this? What is the focus? What does it do?
+                   * CocoaPods will be using this to generate tags, and improve search results.
+                   * Try to keep it short, snappy and to the point.
+                   * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
   s.homepage     = "https://github.com/DiegoArenaOlivera/CalcDao"
@@ -28,7 +33,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.2' }
+  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.1' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
