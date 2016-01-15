@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2E8D036A951D825F3EA2A99D9B1AEEEE1E98900",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B2E8D036A951D825F3EA2A99D9B1AEEEE1E98900" : 0,
+    "AA22FF407EE2196709F0AD77C6E41FDC14683C64" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6362F484-7A33-43E2-9C65-F28273B0C5A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B2E8D036A951D825F3EA2A99D9B1AEEEE1E98900" : "CalcDao\/",
+    "AA22FF407EE2196709F0AD77C6E41FDC14683C64" : "calcdaoapp"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "calcdaoapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "calcdaoapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DiegoArenaOlivera\/calcdaoapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA22FF407EE2196709F0AD77C6E41FDC14683C64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DiegoArenaOlivera\/CalcDao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2E8D036A951D825F3EA2A99D9B1AEEEE1E98900"
+    }
+  ]
+}

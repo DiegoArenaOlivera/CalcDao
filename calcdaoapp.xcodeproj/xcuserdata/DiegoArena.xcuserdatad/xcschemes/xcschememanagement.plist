@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>calcDao.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>calcdaoapp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>9842AF891B9E0B81009B0D87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98F05DD41C49836B0004515D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
