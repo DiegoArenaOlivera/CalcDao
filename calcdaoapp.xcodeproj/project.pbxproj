@@ -14,7 +14,7 @@
 		9842AF821B9E0B81009B0D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9842AF811B9E0B81009B0D87 /* Images.xcassets */; };
 		9842AF851B9E0B81009B0D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9842AF831B9E0B81009B0D87 /* LaunchScreen.xib */; };
 		9842AF911B9E0B81009B0D87 /* calcdaoappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9842AF901B9E0B81009B0D87 /* calcdaoappTests.m */; };
-		98CE07E41C498EF600FEF61E /* calcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CE07E31C498EF600FEF61E /* calcDao.framework */; };
+		98CE07E61C499AE400FEF61E /* CalcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CE07E51C499AE400FEF61E /* CalcDao.framework */; };
 		98F05DD81C49836B0004515D /* calcDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F05DD71C49836B0004515D /* calcDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F05DDC1C49836B0004515D /* calcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* calcDao.framework */; };
 		98F05DDE1C49836B0004515D /* calcDao.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* calcDao.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,7 +67,7 @@
 		9842AF8A1B9E0B81009B0D87 /* calcdaoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcdaoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9842AF8F1B9E0B81009B0D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9842AF901B9E0B81009B0D87 /* calcdaoappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcdaoappTests.m; sourceTree = "<group>"; };
-		98CE07E31C498EF600FEF61E /* calcDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calcDao.framework; sourceTree = SOURCE_ROOT; };
+		98CE07E51C499AE400FEF61E /* CalcDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CalcDao.framework; sourceTree = SOURCE_ROOT; };
 		98F05DD51C49836B0004515D /* calcDao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = calcDao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F05DD71C49836B0004515D /* calcDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcDao.h; sourceTree = "<group>"; };
 		98F05DD91C49836B0004515D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CE07E41C498EF600FEF61E /* calcDao.framework in Frameworks */,
+				98CE07E61C499AE400FEF61E /* CalcDao.framework in Frameworks */,
 				98F05DDC1C49836B0004515D /* calcDao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +125,7 @@
 		9842AF731B9E0B81009B0D87 /* calcdaoapp */ = {
 			isa = PBXGroup;
 			children = (
-				98CE07E31C498EF600FEF61E /* calcDao.framework */,
+				98CE07E51C499AE400FEF61E /* CalcDao.framework */,
 				9842AF781B9E0B81009B0D87 /* AppDelegate.h */,
 				9842AF791B9E0B81009B0D87 /* AppDelegate.m */,
 				9842AF7B1B9E0B81009B0D87 /* ViewController.h */,
