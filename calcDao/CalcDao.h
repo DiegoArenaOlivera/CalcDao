@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for calcDao.
-FOUNDATION_EXPORT double calcDaoVersionNumber;
+FOUNDATION_EXPORT double CalcDaoVersionNumber;
 
 //! Project version string for calcDao.
-FOUNDATION_EXPORT const unsigned char calcDaoVersionString[];
+FOUNDATION_EXPORT const unsigned char CalcDaoVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like
-#import <calcDao/calc.h>
+#import <CalcDao/calc.h>
 
 

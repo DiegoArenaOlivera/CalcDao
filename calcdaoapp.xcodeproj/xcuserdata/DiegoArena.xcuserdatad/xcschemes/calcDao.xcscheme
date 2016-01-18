@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "98F05DD41C49836B0004515D"
-               BuildableName = "calcDao.framework"
-               BlueprintName = "calcDao"
+               BuildableName = "CalcDao.framework"
+               BlueprintName = "CalcDao"
                ReferencedContainer = "container:calcdaoapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98F05DD41C49836B0004515D"
-            BuildableName = "calcDao.framework"
-            BlueprintName = "calcDao"
+            BuildableName = "CalcDao.framework"
+            BlueprintName = "CalcDao"
             ReferencedContainer = "container:calcdaoapp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "98F05DD41C49836B0004515D"
-            BuildableName = "calcDao.framework"
-            BlueprintName = "calcDao"
+            BuildableName = "CalcDao.framework"
+            BlueprintName = "CalcDao"
             ReferencedContainer = "container:calcdaoapp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

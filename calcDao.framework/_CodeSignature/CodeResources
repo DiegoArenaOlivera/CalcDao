@@ -4,36 +4,36 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/CalcDao.h</key>
+		<data>
+		nj8a91N39zcpWsYaLGyyuuEqKF8=
+		</data>
 		<key>Headers/calc.h</key>
 		<data>
 		Yis69mzUOW4zTGlgWFpVDlwbzdo=
 		</data>
-		<key>Headers/calcDao.h</key>
-		<data>
-		OoLvz9Z/dfmS//Ss3fEy3JUAcbo=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		rfhslvrYdnKOMG6OnudrB5iU8z4=
+		pR8GIywzTiilm4oZRwRARRZt3Oo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		OFbN+HJlwBFCXzjgk+otVX+N5Ls=
+		ggfodbqK7Id22byr6eVGC6RNYJ4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CalcDao.h</key>
+		<data>
+		nj8a91N39zcpWsYaLGyyuuEqKF8=
+		</data>
 		<key>Headers/calc.h</key>
 		<data>
 		Yis69mzUOW4zTGlgWFpVDlwbzdo=
 		</data>
-		<key>Headers/calcDao.h</key>
-		<data>
-		OoLvz9Z/dfmS//Ss3fEy3JUAcbo=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		OFbN+HJlwBFCXzjgk+otVX+N5Ls=
+		ggfodbqK7Id22byr6eVGC6RNYJ4=
 		</data>
 	</dict>
 	<key>rules</key>

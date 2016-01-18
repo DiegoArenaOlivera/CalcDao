@@ -15,9 +15,9 @@
 		9842AF851B9E0B81009B0D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9842AF831B9E0B81009B0D87 /* LaunchScreen.xib */; };
 		9842AF911B9E0B81009B0D87 /* calcdaoappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9842AF901B9E0B81009B0D87 /* calcdaoappTests.m */; };
 		98CE07E61C499AE400FEF61E /* CalcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CE07E51C499AE400FEF61E /* CalcDao.framework */; };
-		98F05DD81C49836B0004515D /* calcDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F05DD71C49836B0004515D /* calcDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98F05DDC1C49836B0004515D /* calcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* calcDao.framework */; };
-		98F05DDE1C49836B0004515D /* calcDao.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* calcDao.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98F05DD81C49836B0004515D /* CalcDao.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F05DD71C49836B0004515D /* CalcDao.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F05DDC1C49836B0004515D /* CalcDao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* CalcDao.framework */; };
+		98F05DDE1C49836B0004515D /* CalcDao.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05DD51C49836B0004515D /* CalcDao.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98F05DE71C4987250004515D /* calc.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F05DE51C4987250004515D /* calc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F05DE81C4987250004515D /* calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F05DE61C4987250004515D /* calc.m */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98F05DDE1C49836B0004515D /* calcDao.framework in Embed Frameworks */,
+				98F05DDE1C49836B0004515D /* CalcDao.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,8 +69,8 @@
 		9842AF901B9E0B81009B0D87 /* calcdaoappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcdaoappTests.m; sourceTree = "<group>"; };
 		98CE07E51C499AE400FEF61E /* CalcDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CalcDao.framework; sourceTree = SOURCE_ROOT; };
 		98CE07E71C4D722900FEF61E /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		98F05DD51C49836B0004515D /* calcDao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = calcDao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98F05DD71C49836B0004515D /* calcDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcDao.h; sourceTree = "<group>"; };
+		98F05DD51C49836B0004515D /* CalcDao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalcDao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F05DD71C49836B0004515D /* CalcDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcDao.h; sourceTree = "<group>"; };
 		98F05DD91C49836B0004515D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F05DE51C4987250004515D /* calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = calc.h; path = CalcDao/calc.h; sourceTree = SOURCE_ROOT; };
 		98F05DE61C4987250004515D /* calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = calc.m; path = CalcDao/calc.m; sourceTree = SOURCE_ROOT; };
@@ -82,7 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98CE07E61C499AE400FEF61E /* CalcDao.framework in Frameworks */,
-				98F05DDC1C49836B0004515D /* calcDao.framework in Frameworks */,
+				98F05DDC1C49836B0004515D /* CalcDao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			children = (
 				9842AF711B9E0B81009B0D87 /* calcdaoapp.app */,
 				9842AF8A1B9E0B81009B0D87 /* calcdaoappTests.xctest */,
-				98F05DD51C49836B0004515D /* calcDao.framework */,
+				98F05DD51C49836B0004515D /* CalcDao.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				98CE07E71C4D722900FEF61E /* module.modulemap */,
-				98F05DD71C49836B0004515D /* calcDao.h */,
+				98F05DD71C49836B0004515D /* CalcDao.h */,
 				98F05DD91C49836B0004515D /* Info.plist */,
 				98F05DE51C4987250004515D /* calc.h */,
 				98F05DE61C4987250004515D /* calc.m */,
@@ -184,7 +184,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F05DD81C49836B0004515D /* calcDao.h in Headers */,
+				98F05DD81C49836B0004515D /* CalcDao.h in Headers */,
 				98F05DE71C4987250004515D /* calc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,9 +229,9 @@
 			productReference = 9842AF8A1B9E0B81009B0D87 /* calcdaoappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		98F05DD41C49836B0004515D /* calcDao */ = {
+		98F05DD41C49836B0004515D /* CalcDao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98F05DE11C49836C0004515D /* Build configuration list for PBXNativeTarget "calcDao" */;
+			buildConfigurationList = 98F05DE11C49836C0004515D /* Build configuration list for PBXNativeTarget "CalcDao" */;
 			buildPhases = (
 				98F05DD01C49836B0004515D /* Sources */,
 				98F05DD11C49836B0004515D /* Frameworks */,
@@ -242,9 +242,9 @@
 			);
 			dependencies = (
 			);
-			name = calcDao;
+			name = CalcDao;
 			productName = calcDao;
-			productReference = 98F05DD51C49836B0004515D /* calcDao.framework */;
+			productReference = 98F05DD51C49836B0004515D /* CalcDao.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +283,7 @@
 			targets = (
 				9842AF701B9E0B81009B0D87 /* calcdaoapp */,
 				9842AF891B9E0B81009B0D87 /* calcdaoappTests */,
-				98F05DD41C49836B0004515D /* calcDao */,
+				98F05DD41C49836B0004515D /* CalcDao */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 		};
 		98F05DDB1C49836B0004515D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98F05DD41C49836B0004515D /* calcDao */;
+			target = 98F05DD41C49836B0004515D /* CalcDao */;
 			targetProxy = 98F05DDA1C49836B0004515D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F05DE11C49836C0004515D /* Build configuration list for PBXNativeTarget "calcDao" */ = {
+		98F05DE11C49836C0004515D /* Build configuration list for PBXNativeTarget "CalcDao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98F05DDF1C49836C0004515D /* Debug */,

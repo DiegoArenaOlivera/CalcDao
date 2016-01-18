@@ -1,5 +1,5 @@
-framework module calcDao {
-    umbrella header "calcDao.h"
+framework module CalcDao {
+    umbrella header "CalcDao.h"
     export *
     module * { export * }
 }
