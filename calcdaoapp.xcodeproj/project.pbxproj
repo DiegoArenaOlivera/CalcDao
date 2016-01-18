@@ -68,6 +68,7 @@
 		9842AF8F1B9E0B81009B0D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9842AF901B9E0B81009B0D87 /* calcdaoappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calcdaoappTests.m; sourceTree = "<group>"; };
 		98CE07E51C499AE400FEF61E /* CalcDao.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CalcDao.framework; sourceTree = SOURCE_ROOT; };
+		98CE07E71C4D722900FEF61E /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		98F05DD51C49836B0004515D /* calcDao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = calcDao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F05DD71C49836B0004515D /* calcDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcDao.h; sourceTree = "<group>"; };
 		98F05DD91C49836B0004515D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 		98F05DD61C49836B0004515D /* calcDao */ = {
 			isa = PBXGroup;
 			children = (
+				98CE07E71C4D722900FEF61E /* module.modulemap */,
 				98F05DD71C49836B0004515D /* calcDao.h */,
 				98F05DD91C49836B0004515D /* Info.plist */,
 				98F05DE51C4987250004515D /* calc.h */,
@@ -530,11 +532,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = calcDao/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/CalcDao/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acuant.calcDao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -551,10 +554,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = calcDao/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/CalcDao/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acuant.calcDao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
