@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "CalcDao"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "CalcDaoSDK"
 
   s.description  = <<-DESC
