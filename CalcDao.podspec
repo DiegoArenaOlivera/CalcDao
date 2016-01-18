@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "CalcDao"
-  s.version      = "1.0.9"
+  s.version      = "1.0.10"
   s.summary      = "CalcDaoSDK"
 
   s.description  = <<-DESC
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.9' :submodules => true }
+  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.10' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
