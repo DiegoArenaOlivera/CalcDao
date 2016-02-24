@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FClass.h</key>
+		<data>
+		AaY1b5YkO6w5oGcebiwJJ6+zobM=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		V1HYwpocyinb5Flsf3J6RB3Ezeo=
@@ -55,6 +59,10 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/FClass.h</key>
+		<data>
+		AaY1b5YkO6w5oGcebiwJJ6+zobM=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qiZnvua4PpAoFIznIErFswISZWQ=
