@@ -6,34 +6,106 @@
 	<dict>
 		<key>Headers/CalcDao.h</key>
 		<data>
-		nj8a91N39zcpWsYaLGyyuuEqKF8=
-		</data>
-		<key>Headers/calc.h</key>
-		<data>
-		Yis69mzUOW4zTGlgWFpVDlwbzdo=
+		cIVhQzUSR2bgDhOrKQ8K0iYLHLI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pR8GIywzTiilm4oZRwRARRZt3Oo=
+		eM6SKqaIXAAnLtUud2AoMiajXAc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ggfodbqK7Id22byr6eVGC6RNYJ4=
+		heBNRZqVpxOK8xL/DPQq7INKXy8=
+		</data>
+		<key>PPbeep.wav</key>
+		<data>
+		/vVLHvQpOeIv61DbkFTqizQN+HM=
+		</data>
+		<key>en.strings</key>
+		<data>
+		Vq7lnSZDhrH4071bMz4fi9MXuDI=
+		</data>
+		<key>torchoff.png</key>
+		<data>
+		G0EDUtXLFV5od1cNiWG419wTsio=
+		</data>
+		<key>torchoff@2x.png</key>
+		<data>
+		O6NkM+SNAmrsxWVD9RZtqQxzr3M=
+		</data>
+		<key>torchoff_pressed.png</key>
+		<data>
+		F89YpBReN6hvqtlqgsycIltIuLQ=
+		</data>
+		<key>torchoff_pressed@2x.png</key>
+		<data>
+		GR3lbgn3sUj89wp3CQ+7CylhpDk=
+		</data>
+		<key>torchon.png</key>
+		<data>
+		o+zTUoYGOSzke0GEYzcQU7r4qwE=
+		</data>
+		<key>torchon@2x.png</key>
+		<data>
+		aNHyIIyoYQTHkWzycAXoiYVNlVk=
+		</data>
+		<key>torchon_pressed.png</key>
+		<data>
+		IirQ0/jjs6e3RnxbEoVg9g3g9s4=
+		</data>
+		<key>torchon_pressed@2x.png</key>
+		<data>
+		/Cl92cvL076cckAgUjk2P4geE/0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/CalcDao.h</key>
 		<data>
-		nj8a91N39zcpWsYaLGyyuuEqKF8=
-		</data>
-		<key>Headers/calc.h</key>
-		<data>
-		Yis69mzUOW4zTGlgWFpVDlwbzdo=
+		cIVhQzUSR2bgDhOrKQ8K0iYLHLI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ggfodbqK7Id22byr6eVGC6RNYJ4=
+		heBNRZqVpxOK8xL/DPQq7INKXy8=
+		</data>
+		<key>PPbeep.wav</key>
+		<data>
+		/vVLHvQpOeIv61DbkFTqizQN+HM=
+		</data>
+		<key>en.strings</key>
+		<data>
+		Vq7lnSZDhrH4071bMz4fi9MXuDI=
+		</data>
+		<key>torchoff.png</key>
+		<data>
+		G0EDUtXLFV5od1cNiWG419wTsio=
+		</data>
+		<key>torchoff@2x.png</key>
+		<data>
+		O6NkM+SNAmrsxWVD9RZtqQxzr3M=
+		</data>
+		<key>torchoff_pressed.png</key>
+		<data>
+		F89YpBReN6hvqtlqgsycIltIuLQ=
+		</data>
+		<key>torchoff_pressed@2x.png</key>
+		<data>
+		GR3lbgn3sUj89wp3CQ+7CylhpDk=
+		</data>
+		<key>torchon.png</key>
+		<data>
+		o+zTUoYGOSzke0GEYzcQU7r4qwE=
+		</data>
+		<key>torchon@2x.png</key>
+		<data>
+		aNHyIIyoYQTHkWzycAXoiYVNlVk=
+		</data>
+		<key>torchon_pressed.png</key>
+		<data>
+		IirQ0/jjs6e3RnxbEoVg9g3g9s4=
+		</data>
+		<key>torchon_pressed@2x.png</key>
+		<data>
+		/Cl92cvL076cckAgUjk2P4geE/0=
 		</data>
 	</dict>
 	<key>rules</key>
