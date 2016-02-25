@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "CalcDao"
-  s.version      = "1.0.12"
+  s.version      = "1.0.16"
   s.summary      = "CalcDaoSDK"
 
   s.description  = <<-DESC
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.12' }
+  s.source       = { :git => "https://github.com/DiegoArenaOlivera/CalcDao.git", :tag => 'v1.0.16' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -43,7 +43,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'CalcDao.framework/Headers/*.{h}'
   s.requires_arc = true
-  
+
+  s.ios.xcconfig = {
+        'GCC_PREPROCESSOR_DEFINITIONS' => 'DEBUG=1 $(inherited) CVLIB_IMG_NOCODEC',
+        'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AcuantMobileSDK/AcuantMobileSDK.embeddedframework"'
+}
+
   s.ios.frameworks = 'CalcDao', 'SystemConfiguration', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'QuartzCore'
   s.ios.libraries = 'iconv', 'c++', 'z'
 
